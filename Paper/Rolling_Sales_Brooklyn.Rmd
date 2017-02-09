@@ -1,0 +1,14 @@
+---
+title: "Rolling Sales Brooklyn"
+author: "Jethin Abraham"
+date: "February 9, 2017"
+output: 
+    html_document:
+    keep_md: true
+---
+## R Markdown
+
+Here in the data there is a significant corelation between the gross sqft and the sales price of the houses. 
+In the dataset there are many outliers and cleaning the dataset would provide a better perspective on the data. 
+The log transformation can be used to make highly skewed distributions less skewed. This can be valuable both for making patterns in the data more interpretable. The log10 of grooss sqft vs log 10 sales prices  (without the outliers) gives a fair understanding of the Brooklyn Housing Market.
+
